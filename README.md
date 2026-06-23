@@ -25,7 +25,7 @@ ai-plagiarism-detector/
 │
 ├── app/
 │   ├── __init__.py
-│   ├── detector.py        # Core plagiarism detection logic (embeddings + similarity)
+│   ├── detector.py         # Core plagiarism detection logic (embeddings + similarity)
 │   ├── utils.py            # Text cleaning, preprocessing helpers
 │   └── config.py           # Threshold values, model name, settings
 │
@@ -112,23 +112,16 @@ pytest tests/ -v
 ## Example Output
 
 ```text
-============================================================
 AI-BASED PLAGIARISM DETECTOR
-============================================================
 Loading embedding model: all-MiniLM-L6-v2 ...
 Model loaded successfully.
 
-
-============================================================
 PAIRWISE COMPARISON: sample1.txt vs sample2.txt
-============================================================
 Similarity Score : 0.9123
 Similarity %     : 91.23%
 Verdict          : High Risk of Plagiarism
 
-============================================================
 SENTENCE-LEVEL BREAKDOWN
-============================================================
 
 [1] ⚠️  FLAGGED (Similarity: 96.42%)
     Source  : Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.
@@ -138,9 +131,8 @@ SENTENCE-LEVEL BREAKDOWN
     Source  : Machine learning, a subset of AI, enables systems to learn from data and improve their performance over time without being explicitly programmed.
     Matched : Machine learning is a branch of AI that allows systems to learn from data and get better over time without explicit programming.
 
-============================================================
 CORPUS CHECK: sample1.txt vs data/corpus/*.txt
-============================================================
+
 Loaded 3 reference document(s) from corpus.
 
 Document   : doc3.txt

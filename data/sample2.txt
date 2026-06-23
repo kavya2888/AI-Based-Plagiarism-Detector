@@ -1,0 +1,5 @@
+Artificial intelligence refers to the simulation of human thinking by computer systems. This includes processes like learning, reasoning, and correcting mistakes. AI is applied in many areas, such as natural language understanding, computer vision, and robotics.
+
+Machine learning is a branch of AI that allows systems to learn from data and get better over time without explicit programming. Deep learning, which relies on multi-layered neural networks, has led to major breakthroughs in areas like image and speech recognition.
+
+As AI becomes more powerful, concerns about ethics, fairness, and accountability are gaining importance in both research and policymaking.
